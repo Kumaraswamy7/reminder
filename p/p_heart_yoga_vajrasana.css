@@ -1,0 +1,139 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+.background{
+  width:100vw;
+  height:100vh;
+  background-color:#372e00 ;
+  background-color:#f5cc00 ;
+  background: linear-gradient(135deg, #f5a623, #f76b1c, #fd1d1d, #833ab4);
+  background: linear-gradient(135deg,#fff,#73ecc7, #58ccdb, #00b0f5);
+  /*, #db5252, #c270fa,#fff);*/
+  /*background: linear-gradient(to bottom, #FFDEE9, #B5FFFC); */
+  /*background: linear-gradient(to bottom, #D4FC79, #96E6A1);*/
+   /*background: linear-gradient(to bottom, #FFB6C1, #E6E6FA);*/
+  z-index: -1;
+  position: fixed;
+}
+heading{
+  background-color:#03003b ;
+  border-bottom:0.5vh solid #fff;
+  height:6vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  font-size: 3.5vh;
+  color:#fff;
+  gap:4vw;
+}
+.info{
+  background-color:#ffffff11 ;
+  margin-left:2vw;
+  display: flex;
+  align-items:center;
+  color:#03003b;
+  font-size:0;
+}
+i{
+  color:white;
+  font-size: 4vh;
+}
+.project_name{
+  font-size: 4vh;
+  font-weight: 900;
+  display:flex;
+}
+#dot{
+  color:aqua;
+}
+.task_bar{
+  width:100vw;
+  height:8vh;
+  background-color: #03003b;
+  border-top:0.5vh solid #fff;
+  position:fixed;
+  bottom:0;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 4vh;
+  color:white;
+}
+.options{
+  height: 4vh;
+  width:4vh;
+  background-color: #ffffff00;
+  border-radius:50%;
+  color: #372e00;
+  display: flex;
+  font-size:0;
+}
+.main_heart{
+  width:100vw;
+  height:80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.yoga{
+  margin:2vh;
+  height:60h;
+  width:52vh;
+  background-color: white;
+  border-radius: 1vh;
+  font-size: 2vh;
+  box-shadow: 0 0 1vh 0 black;
+}
+.yoga_head{
+  margin: 2vh;
+  font-size: 5vh;
+  font-weight:600;
+  display:flex;
+  gap:1vh
+}
+.yoga_body{
+  margin:2vh;
+  width:48vh;
+  height:20vh;
+  background-color: #00000000;
+}
+.yoga_img{
+  width:48vh;
+  height:48vh;
+  background-color: #00000055;
+  background-image: url("/padmasana_img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.yoga_list_add{
+  margin:2vh;
+  height:7vh;
+  display:flex;
+  align-items: center;
+  box-shadow: 0 0 0.5vh 0 black;
+}
+a{
+  text-decoration:none;
+}
+.yoga_coute{
+  font-size: 3vh;
+  font-weight:600;
+  display:flex;
+}
+.add{
+  padding-left:1vh;
+  padding-right:1vh;
+  box-shadow: 0 0 0.2vh 0 black;
+  border-radius:10%;
+}
+.add i {
+  color:black;
+}
+.fa-solid.fa-heart{
+  color:red;
+}

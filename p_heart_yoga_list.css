@@ -1,0 +1,90 @@
+
+.main_heart{
+  width:100vw;
+  height:80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.yoga{
+  margin:2vh;
+  height:30vh;
+  width:52vh;
+  background-color: white;
+  border-radius: 1vh;
+  font-size: 2vh;
+  box-shadow: 0 0 1vh 0 black;
+}
+.yoga_body{
+  margin:2vh;
+  width:48vh;
+  height:20vh;
+  background-color: #00000000;
+}
+@media (max-height: 500vw) {
+  .yoga{
+  margin:2vh;
+  height:30vh;
+  width:40vh;
+  background-color: #fff;
+  border-radius: 1vh;
+  font-size: 2vh;
+  box-shadow: 0 0 1vh 0 black;
+}
+.yoga_body{
+  margin:2vh;
+  width:38vh;
+  height:20vh;
+  background-color: #00000000;
+}
+}
+@media (max-height: 200vw){
+  .yoga{
+  margin:2vh;
+  height:30vh;
+  width:52vh;
+  background-color: white;
+  border-radius: 1vh;
+  font-size: 2vh;
+  box-shadow: 0 0 1vh 0 black;
+}
+.yoga_body{
+  margin:2vh;
+  width:48vh;
+  height:20vh;
+  background-color: #00000000;
+}
+}
+.yoga_head{
+  margin: 2vh;
+  font-size: 5vh;
+  font-weight:600;
+}
+
+.yoga_list_add{
+  margin:2vh;
+  height:7vh;
+  display:flex;
+  align-items: center;
+  box-shadow: 0 0 0.5vh 0 black;
+  background-color: #ffffff;
+}
+a{
+  text-decoration:none;
+}
+.add i{
+  margin-left:3vh;
+  color:black;
+}
+.add_msg{
+  margin-left:3vh;
+  font-size:3vh;
+  font-weight:600;
+  color:black;
+}
+.yoga_coute{
+  font-size: 2.5vh;
+}
+.fa-solid.fa-heart{
+  color:red;
+}

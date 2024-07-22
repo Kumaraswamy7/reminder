@@ -1,0 +1,83 @@
+.task_bar .fa-solid.fa-user{
+  color: #bfe800;
+}
+.profile_name{
+  font-size: 6vh;
+  font-weight: 800;
+}
+.profile_pic{
+  margin-left: 2vh;
+  height: 10vh;
+  width: 10vh;
+  background-color:#372a5a ;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0;
+}
+.profile_pic i{
+  font-size: 8vh;
+}
+.p{
+  display: flex;
+  gap:2vh;
+  align-items: center;
+  color:#fff;
+}
+.p_d{
+  font-size: 3vh;
+  font-weight:600;
+  display: flex;
+  align-items: center;
+}
+.p_d i{
+  font-size: 2.5vh;
+  color:black;
+  color:#fff;
+}
+.score{
+  padding-top:5vh;
+  padding-bottom:5vh ;
+  background-color: white;
+  border-radius: 2vh;
+  margin:2vh;
+  margin-top: 10vh;
+}
+.score_name{
+  margin-left:2vh;
+  font-size: 6vh;
+  font-weight: 800;
+}
+.s{
+  margin-top: 4vh;
+  display:flex;
+  
+}
+.your_s{
+  margin-left: 4vh;
+  width:20vh;
+  height:20vh;
+  border: 4vh solid black;
+  border-radius: 50%;
+  border-top-color: #e82f2f;
+  border-bottom-color: #ff0 ;
+  border-left-color: #25ca25;
+  border-right-color:#ff9900 ;
+  font-size: 4vh;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s_details{
+  padding-left:2vh;
+}
+.s_rate{
+  font-size: 6vh;
+  font-weight:600;
+}
+.s_task_c,.s_task_p{
+  font-size: 3vh;
+  font-weight:600;
+}

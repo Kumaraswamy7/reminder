@@ -1,0 +1,72 @@
+
+.main_heart{
+  width:100vw;
+  height:80vh;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.yoga{
+  margin:2vh;
+  width:52vh;
+  height:90vh;
+  background-color: white;
+  border-radius: 1vh;
+  font-size: 2vh;
+  box-shadow: 0 0 1vh 0 black;
+  display: flex;
+   flex-direction: column;
+  flex-wrap: wrap;
+}
+.yoga_head{
+  margin: 2vh;
+  font-size: 5vh;
+  font-weight:600;
+  display:flex;
+  gap:1vh;
+}
+.yoga_body{
+  margin:2vh;
+  width:48vh;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #00000000;
+}
+.yoga_img{
+  width:48vh;
+  height:48vh;
+  background-color: #00000055;
+  background-image: url("/yoga/padmasana.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.yoga_list_add{
+  margin:2vh;
+  height:7vh;
+  display:flex;
+  align-items: center;
+  box-shadow: 0 0 0.5vh 0 black;
+}
+a{
+  text-decoration:none;
+}
+.yoga_coute{
+  font-size: 2.5vh;
+
+}
+.add{
+  height:5vh;
+  width:5vh;
+  padding-left:1vh;
+  padding-right:1vh;
+  box-shadow: 0 0 0.2vh 0 black;
+  border-radius:10%;
+}
+.add i {
+  color:black;
+}
+.fa-solid.fa-heart{
+  color:red;
+}
